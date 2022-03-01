@@ -1,0 +1,82 @@
+.h1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+   
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/556/970/373/artwork-white-hexagon-abstract-3d-hd-wallpaper-preview.jpg);
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/733874.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%; 
+   background-position: 90% ;
+   margin: 0;
+   padding: 0%;
+}
+
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUouodPtBnoQYD6Q5NZeUOGq31uSI94C9zIw&usqp=CAU);
+   border-radius: 20px;
+    margin: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#up{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    
+}
+#number{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    margin-left: 26em;
+    margin-right: 26em;
+    padding: 10px;
+    font-size: large;
+    box-shadow: 3px 3px 3px 3px;
+}
+#down{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+   
+}
+i{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: bold;
+    padding:10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+#up-btn:hover{
+    background-color: blue;
+    color:white;
+}
+
+#down-btn:hover{
+    background-color: red;
+    color:white;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    font-size: large;
+    border-radius: 10px;
+   width: 10%;
+   background-color:whitesmoke;
+   box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+
+#reset:hover{
+    background-color: yellow;
+}
+    
